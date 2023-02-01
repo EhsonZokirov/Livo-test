@@ -1,4 +1,5 @@
 # Livo - Тестовое задание
+- ссылка на макет: (https://www.figma.com/file/nK1xbZzVKV3M2M2neyr97Q/Untitled?node-id=1%3A2)
 > Необходимо сверстать макет desktop и mobile версии главной страницы сайта и сделать его адаптивным.
 > При верстке постарайтесь использовать:
 1. tailwind css
