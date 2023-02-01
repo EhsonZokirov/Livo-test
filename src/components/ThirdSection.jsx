@@ -7,9 +7,9 @@ function ThirdSection() {
       <div>
         <img className="m-auto" src={img2} alt="person design" />
       </div>
-      <div className="space-y-5 m-auto">
-        <h1 className=" text-[25px]  md:text-[50px] font-bold">We Provide Many Features You Can Use</h1>
-        <p className="text-slate-400 md:w-[80%]">
+      <div className="lg:space-y-5 space-y-2 m-auto">
+        <h1 className="text-[25px] xl:text-[50px] font-bold">We Provide Many Features You Can Use</h1>
+        <p className="text-slate-400 lg:w-[80%]">
           You can explore the features that we provide with fun and have their
           own functions each feature.
         </p>

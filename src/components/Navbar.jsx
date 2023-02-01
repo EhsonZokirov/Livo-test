@@ -20,7 +20,7 @@ function Navbar() {
         </ul>
         <div className=" hidden sm:flex m-auto gap-5">
           <button className="font-bold">Sign In</button>
-          <Buttons />
+          <Buttons title="Sign Up"/>
         </div>
         <div className="flex justify-center m-auto sm:hidden">
             <IconButton>

@@ -14,7 +14,7 @@ function SecondSection() {
           <p className="text-slate-400">Users</p>
         </div>
       </div>
-      <div className="flex items-center gap-5 m-auto py-10 md:px-40 md:border-x-[2px]">
+      <div className="flex items-center gap-5 m-auto py-10 ">
         <div className="bg-red-100 text-red-500 rounded-full p-2">
           <LocationOnIcon />
         </div>
