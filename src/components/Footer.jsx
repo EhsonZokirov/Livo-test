@@ -5,7 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 function Footer() {
   return (
-    <footer className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 bg-[#F8F8F8] py-20">
+    <footer className="md:grid flex flex-col-reverse gap-10 md:grid-cols-2 lg:grid-cols-4 bg-[#F8F8F8] py-20">
       <div className=" text-center md:text-start w-[50%] m-auto space-y-5">
         <div className="flex justify-center md:justify-start items-center gap-2">
           <img className="" src={LOGO} alt="logo" />
@@ -13,7 +13,7 @@ function Footer() {
             Lasles<span className="font-black">VPN</span>
           </h1>
         </div>
-        <p>
+        <p className="text-slate-500">
           Lasles <span className="font-bold"> VPN </span> is a private virtual
           network that has unique features and has high security.
         </p>
@@ -28,7 +28,7 @@ function Footer() {
             <InstagramIcon />
           </div>
         </div>
-        <p>©2020LaslesVPN</p>
+        <p className="text-slate-400">©2020LaslesVPN</p>
       </div>
       <ul className="m-auto text-center md:text-start">
         <li className="font-bold">Product</li>
